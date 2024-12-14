@@ -1,4 +1,4 @@
-use adp536x::ADP5360;
+use adp5360::ADP5360;
 // Replace this with the actual I2C implementation of your async HAL
 use embedded_hal_mock::eh1::i2c::{Mock as I2cMock, Transaction};
 
