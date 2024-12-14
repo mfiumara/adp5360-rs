@@ -1,0 +1,24 @@
+[package]
+name = "adp5360"
+version = "0.1.0"
+edition = "2021"
+authors = ["Mattia Fiumara"]
+description = "An async embedded-hal driver for the ADP5360 Power Management IC"
+repository = "https://github.com/mfiumara/adp5360-rs"
+license = "MIT"
+keywords = [
+    "embedded-hal-driver",
+    "embedded",
+    "async",
+    "battery",
+    "power-management",
+]
+categories = ["embedded", "hardware-support", "no-std"]
+
+[dependencies]
+embedded-hal-async = "1.0.0"
+embedded-hal-mock = { version = "0.11", features = ["embedded-hal-async"] }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+embedded-hal-mock = "0.11"
