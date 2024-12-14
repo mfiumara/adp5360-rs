@@ -1,6 +1,7 @@
 # ADP5360 Rust Driver
 
 [![Rust](https://github.com/mfiumara/adp5360-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/mfiumara/adp5360-rs/actions/workflows/rust.yml)
+[![codecov](https://codecov.io/gh/mfiumara/adp5360-rs/graph/badge.svg?token=SJPT9NBXCQ)](https://codecov.io/gh/mfiumara/adp5360-rs)
 
 An async embedded-hal driver for the ADP5360 Power Management IC.
 
