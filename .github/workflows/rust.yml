@@ -22,8 +22,8 @@ jobs:
       run: cargo test --verbose
       env:
         CARGO_INCREMENTAL: '0'
-        RUSTFLAGS: '-Ccodegen-units=1 -Cinline-threshold=0 -Clink-dead-code -Coverflow-checks=off'
-        RUSTDOCFLAGS: '-Ccodegen-units=1 -Cinline-threshold=0 -Clink-dead-code -Coverflow-checks=off'
+        RUSTFLAGS: '-Ccodegen-units=1 -Clink-dead-code -Coverflow-checks=off'
+        RUSTDOCFLAGS: '-Ccodegen-units=1 -Clink-dead-code -Coverflow-checks=off'
     - name: rust-grcov
       # You may pin to the exact commit or the version.
       # uses: actions-rs/grcov@bb47b1ed7883a1502fa6875d562727ace2511248
