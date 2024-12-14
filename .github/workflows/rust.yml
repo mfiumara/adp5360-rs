@@ -27,3 +27,4 @@ jobs:
           files: lcov.info
           fail_ci_if_error: true
           verbose: true
+          slug: mfiumara/adp5360-rs
