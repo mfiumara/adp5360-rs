@@ -18,7 +18,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-adp536x = "0.1.0"
+adp5360 = "0.2.1"
 ```
 
 ## Usage
